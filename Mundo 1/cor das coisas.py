@@ -15,4 +15,3 @@ azul = 34 / 44
 roxo = 35 / 45
 ciano = 36 / 46
 cinza = 37 / 47
-
