@@ -2,6 +2,7 @@ nome = input('ola quem e voce? ').upper()
 cor = '\033[34m'
 sem = '\033[m'
 
+
 print('ola {}{}{} prazer me te conhecer'.format('\033[31m', nome, '\033[m'))
 
 dia = input('dia? ')
