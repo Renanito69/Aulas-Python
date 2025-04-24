@@ -46,3 +46,24 @@ Os conteúdos estão organizados por módulos, acompanhando a estrutura do curso
 ## 📎 Links Úteis
 - [Curso em Vídeo - Python](https://www.cursoemvideo.com/course/curso-python-3/)
 - [Canal do Curso em Vídeo no YouTube](https://www.youtube.com/c/CursoemV%C3%ADdeo)
+
+
+## 🧩 Projeto em POO — Desafio Bicicletaria (DIO.me)
+
+Este projeto é um exercício prático de Programação Orientada a Objetos (POO) em Python, desenvolvido durante o **curso de Python da plataforma [DIO.me](https://www.dio.me/)**.
+
+### 🚲 Descrição
+A classe `Bicicleta` modela os principais atributos e comportamentos de uma bicicleta, incluindo:
+- Atributos: cor, modelo, ano e valor
+- Métodos: `buzina()`, `parar()`, `correr()`, `get_cor()`, e sobrescrita de `__str__()` para exibir a bicicleta de forma legível
+
+### 💡 Exemplo de Uso
+```python
+b1 = Bicicleta("Preta", "BMX", 2005, 150)
+b1.correr()
+b1.buzina()
+b1.parar()
+print(b1)  # Exibe os detalhes do objeto bicicleta
+```
+
+Este exercício faz parte do módulo de POO oferecido na DIO.
