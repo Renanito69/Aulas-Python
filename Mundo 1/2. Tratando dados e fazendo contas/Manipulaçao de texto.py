@@ -1,0 +1,20 @@
+frase = 'Voce e Muito legal parceiro'
+frase2 = '       Voce e Top   '
+s = frase.split()
+
+print('1.', len(frase))
+print('2.', frase.count('e'))
+print('3.', frase.find('Par'))
+print('4.', 'Voce' in frase)
+print('5.', frase.replace('Legal', 'Gay'))
+print('6.', frase.upper())
+print('7.', frase.lower())
+print('8.', frase.capitalize())
+print('9.', frase.title())
+print('10.', frase2.strip())
+print('11.', frase2.rstrip())
+print('12.', frase2.lstrip())
+print('13.', frase.split())
+print('14.', '-'.join(frase))
+print('15.', '-'.join(s))
+print('16.', frase[2:19:])
